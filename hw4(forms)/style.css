@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.form {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.group-1 {
+  border: none;
+  padding: 0 16px;
+  margin: 0px;
+}
+
+.h3 {
+  margin: 17px 0 10px;
+  font-size: medium;
+}
+
+.name-input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-style {
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 300px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  resize: vertical;
+  max-height: 200px;
+  min-height: 42px;
+  display: inline-block;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    margin: 5px 12px 17px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
